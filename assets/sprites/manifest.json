@@ -1,0 +1,29 @@
+{
+  "source": {
+    "generator": "OpenAI GPT Image (built-in image generation)",
+    "reference": "../reference/prisoner_reference.png",
+    "referenceCredit": "User-supplied original prisoner illustration"
+  },
+  "prisoner": {
+    "file": "prisoner-walk.png",
+    "atlasSize": [512, 576],
+    "frameSize": [128, 144],
+    "anchor": [64, 136],
+    "rows": { "down": 0, "up": 1, "right": 2, "left": 3 },
+    "framesPerDirection": 4,
+    "idleColumn": 1,
+    "playbackColumns": [1, 2, 3, 0],
+    "frameDurationMs": 200,
+    "notes": "Left frames mirror the right-facing walk. All frames share a common scale and foot baseline."
+  },
+  "props": {
+    "bars": "bars.png",
+    "wall": "wall.png",
+    "exit": "exit-door.png",
+    "floor": "floor-tile.png",
+    "reinforced": "reinforced-bars.png",
+    "breaker": "wall-breaker.png",
+    "surge": "speed-surge.png",
+    "entry": "closed-door.png"
+  }
+}
